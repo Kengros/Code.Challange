@@ -12,15 +12,9 @@
 
 ## Layout
 
-* Author
-  - Ken Gros
-* Language
-  - Javascript in a HTML wrapper
-* Platform
-  - Chrome Browser
-* Audio Format
-  - .webm
-  - 2 Channel
+|Author         |Language         |Platform       |Audio Format      |
+| :-----------: | :-------------: | :-----------: | :--------------: |
+|Ken Gros       |Javascript/HTML  |Google Chrome  |webm - 2 Channel  |
 
 ## Description of Technique
 
