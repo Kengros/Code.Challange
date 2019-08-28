@@ -8,7 +8,7 @@
 </h1>
 
 <h4 align="center">A minimal sound generating codeing challange</h4>
-<h2 align="center">Challange Accepted</h2>
+<h3 align="center">Challange Accepted</h3>
 
 ## Layout
 
