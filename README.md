@@ -12,12 +12,12 @@
 
 ## Layout
 
-### Application FAQ 
+<h3 align="center">Application FAQ</h3> 
 |Author         |Title          |Language       |Platform       |Size           |
 | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
 |Ken Gros       |Song Of Thrones|Javascript/HTML|Google Chrome  |989b           |
 
-### Sample FAQ
+<h3 align="center">Sample FAQ</h3>
 |Rate           |Frequency Range|Channels       |Encoding       |File Size      |
 | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
 |48000Hz        |260Hz - 390Hz  |2 Channel      |webm           |187kb          |
