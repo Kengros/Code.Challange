@@ -14,9 +14,13 @@
 
 <h3 align="center">Application FAQ</h3>
 
+<div allign="center">
+
 |Author         |Title          |Language       |Platform       |Size           |
 | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
 |Ken Gros       |Song Of Thrones|Javascript/HTML|Google Chrome  |989b           |
+
+</div>
 
 <h3 align="center">Sample FAQ</h3>
 
