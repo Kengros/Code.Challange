@@ -25,19 +25,19 @@
 ## Technique
 
 ### Step 1
-<br>
+
 <img src="./img/SC1.png" width=""></a>
 <br>
 The `body` tag is created and a `button` is placed inside with a click event attached.
 <br>
 ### Step 2
-<br>
+
 <img src="./img/SC2.png" width=""></a>
 <br>
 When the `button` is clicked an async function calls a secondary function that will return a promise to the primary.
-<br> 
+
 ### Step 3
-<br>
+
 <img src="./img/SC3.png" width=""></a>
 <br>
 The secondary function accepts 3 variables `frequency`, `wave shape` and `duration` from an array of `notes`.
@@ -50,10 +50,11 @@ The secondary function accepts 3 variables `frequency`, `wave shape` and `durati
 <img src="./img/SC4.png" width=""></a>
 <br>
 The array of `notes` is built with the above function.
+
 ### Step 4
-<br>
+
 <img src="./img/SC2.png" width=""></a>
-<br>
+
 In the next phase of the primary function the chunks of audio are combined with `Blob` and encoded. Once this step ius complete the url of the encoded media is assigned to an `<a>` tag and a click event is fired on it starting the download of the file. 
 
 ## Golf Score
