@@ -12,9 +12,15 @@
 
 ## Layout
 
-|Author         |Language         |Platform       |Audio Format      |
-| :-----------: | :-------------: | :-----------: | :--------------: |
-|Ken Gros       |Javascript/HTML  |Google Chrome  |webm - 2 Channel  |
+# Application FAQ 
+|Author         |Title          |Language       |Platform       |Size           |
+| :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
+|Ken Gros       |Song Of Thrones|Javascript/HTML|Google Chrome  |989b           |
+
+# Sample FAQ
+|Rate           |Frequency Range|Channels       |Encoding       |File Size      |
+| :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
+|48000Hz        |260Hz - 390Hz  |2 Channel      |webm           |187kb          |
 
 ## Description of Technique
 
