@@ -18,12 +18,17 @@
   - Javascript in a HTML wrapper
 * Platform
   - Chrome Browser
+* Audio Format
+  - .webm
+  - 2 Channel
+
+## Description of Technique
+
+To start I created an array of frequencies that each correspond to a note on the trebel clef transposed from sheet music for the Game Of Thrones theme song. The script starts by using AudioContext to create an Oscillator in a series of promises that are hydrated with variables for frequency, duration, and gain. At the begining and end of each promise the recorder is started and stopped and each audio chunk is pushed to an array. Once the function is complete each chunk is combined into a blob that is encoded and assigned a URL on which a click event is triggered causing the file to be automatically downloaded.
 
 ## Golf Score
 
-  <br>
   <img src="./img/Screen Shot 2019-08-28 at 07.16.35 AM.png" alt="Markdownify" width=""></a>
-  <br>
 
   ## How To
 
