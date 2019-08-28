@@ -22,13 +22,43 @@
 | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
 |48000Hz        |260Hz - 390Hz  |2 Channel      |webm           |187kb          |
 
-## Description of Technique
+## Technique
 
-To start I created an array of frequencies that each correspond to a note on the treble clef transposed from sheet music for the Game Of Thrones theme song. The script starts by using AudioContext to create an Oscillator in a series of promises that are hydrated with variables for frequency, duration, and gain. At the begining and end of each promise the recorder is started and stopped and each audio chunk is pushed to an array. Once the function is complete each chunk is combined into a blob that is encoded and assigned a URL on which a click event is triggered causing the file to be automatically downloaded.
+### Step 1
+<br>
+<img src="./img/SC1.png" width=""></a>
+<br>
+The `body` tag is created and a `button` is placed inside with a click event attached.
+<br>
+### Step 2
+<br>
+<img src="./img/SC2.png" width=""></a>
+<br>
+When the `button` is clicked an async function calls a secondary function that will return a promise to the primary.
+<br> 
+### Step 3
+<br>
+<img src="./img/SC3.png" width=""></a>
+<br>
+The secondary function accepts 3 variables `frequency`, `wave shape` and `duration` from an array of `notes`.
+- First: it creates the `AudioContext`, `Oscillator` and `Gain` which are required to hear sound.
+- Second: it connects the `MediaStream` to the `Destination` which are required play the sound over the device's speakers
+- Third: it creates a `MediaRecorder` which is required to capture and store each sound so that it can be written to a file and downloaded.
+- Fourth: it starts the `MediaRecorder` and the `Oscillator` and after the specified `duration` pushes the chunk of data to an array. 
+- Fifth: the secondary function completes and the promise to the primary is fulfilled, the primary function resumes
+<br>
+<img src="./img/SC4.png" width=""></a>
+<br>
+The array of `notes` is built with the above function.
+### Step 4
+<br>
+<img src="./img/SC2.png" width=""></a>
+<br>
+In the next phase of the primary function the chunks of audio are combined with `Blob` and encoded. Once this step ius complete the url of the encoded media is assigned to an `<a>` tag and a click event is fired on it starting the download of the file. 
 
 ## Golf Score
 
-  <img src="./img/Screen Shot 2019-08-28 at 07.16.35 AM.png" alt="Markdownify" width=""></a>
+  <img src="./img/GolfScore.png" alt="Markdownify" width=""></a>
 
   ## How To
 
