@@ -3,7 +3,7 @@
   <br>
   <img src="./img/codeChallangeLogo.png"></a>
   <br>
-  Song Of Thrones
+  Song of Thrones
   <br>
 </h1>
 
