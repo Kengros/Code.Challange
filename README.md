@@ -59,7 +59,7 @@ In the next phase of the primary function the chunks of audio are combined with 
 
 <img src="./img/DownloadedFile.png"></a>
 
-<p>** All images show non-minified coder for readability **</p>
+<p>** All images show non-minified code for readability **</p>
 
 ## Golf Score
 
