@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <img src="./img/codeChallangeLogo.png" width=""></a>
+  <img src="./img/codeChallangeLogo.png"></a>
   <br>
   Song Of Thrones
   <br>
@@ -26,19 +26,19 @@
 
 ### Step 1
 
-<img src="./img/SC1.png" width=""></a>
+<img src="./img/SC1.png"></a>
 <br>
 The `body` tag is created and a `button` is placed inside with a click event attached.
 <br>
 ### Step 2
 
-<img src="./img/SC2.png" width=""></a>
+<img src="./img/SC2.png"></a>
 <br>
 When the `button` is clicked an async function calls a secondary function that will return a promise to the primary.
 
 ### Step 3
 
-<img src="./img/SC3.png" width=""></a>
+<img src="./img/SC3.png"></a>
 <br>
 The secondary function accepts 3 variables `frequency`, `wave shape` and `duration` from an array of `notes`.
 - First: it creates the `AudioContext`, `Oscillator` and `Gain` which are required to hear sound.
@@ -47,13 +47,13 @@ The secondary function accepts 3 variables `frequency`, `wave shape` and `durati
 - Fourth: it starts the `MediaRecorder` and the `Oscillator` and after the specified `duration` pushes the chunk of data to an array. 
 - Fifth: the secondary function completes and the promise to the primary is fulfilled, the primary function resumes
 <br>
-<img src="./img/SC4.png" width=""></a>
+<img src="./img/SC4.png"></a>
 <br>
 The array of `notes` is built with the above function.
 
 ### Step 4
 
-<img src="./img/SC2.png" width=""></a>
+<img src="./img/SC2.png"></a>
 
 In the next phase of the primary function the chunks of audio are combined with `Blob` and encoded. Once this step ius complete the url of the encoded media is assigned to an `<a>` tag and a click event is fired on it starting the download of the file. 
 
@@ -61,7 +61,7 @@ In the next phase of the primary function the chunks of audio are combined with 
 
 ## Golf Score
 
-  <img src="./img/GolfScore.png" alt="Markdownify" width=""></a>
+  <img src="./img/GolfScore.png"></a>
 
   ## How To
 
