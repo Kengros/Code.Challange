@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <img src="Prod/GameOfThrones/img/codeChallangeLogo.png" alt="Markdownify" width=""></a>
+  <img src="./img/codeChallangeLogo.png" width=""></a>
   <br>
   Song Of Thrones
   <br>
@@ -22,5 +22,5 @@
 ## Golf Score
 
   <br>
-  <img src="Prod/GameOfThrones/img/Screen Shot 2019-08-28 at 07.16.35 AM.png" alt="Markdownify" width=""></a>
+  <img src="./img/Screen Shot 2019-08-28 at 07.16.35 AM.png" alt="Markdownify" width=""></a>
   <br>
