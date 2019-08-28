@@ -55,7 +55,7 @@ The array of `notes` is built with the above function.
 
 <img src="./img/SC2.png"></a>
 
-In the next phase of the primary function the chunks of audio are combined with `Blob` and encoded. Once this step ius complete the url of the encoded media is assigned to an `<a>` tag and a click event is fired on it starting the download of the file. 
+In the next phase of the primary function the chunks of audio are combined with `Blob` and encoded. Once this step is complete the url of the encoded media is assigned to an `<a>` tag and a click event is fired on it starting the download of the file. 
 
 <img src="./img/DownloadedFile.png"></a>
 
